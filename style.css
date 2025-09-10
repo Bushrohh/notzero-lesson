@@ -157,9 +157,17 @@ button:hover{
     border: 1px solid blue; 
     }
     .receiver{
-   max-width: 350px;
+   max-width: 300px;
    }
    .sender{
     max-width: 420px;
+   }
+}
+@media (min-width:600px){
+    .receiver{
+   max-width: 250px;
+   }
+   .sender{
+    max-width: 350px;
    }
 }
